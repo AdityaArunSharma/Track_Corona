@@ -2,7 +2,7 @@ package com.asquarestudios.trackcorona;
 
 public class dataVariable
 {
-    private String activeCases,recovered,deaths,totalCases,sourceUrl;
+    private String activeCases,recovered,deaths,totalCases,sourceUrl,latestUpdate;
 
     public dataVariable() {
 
@@ -34,6 +34,14 @@ public class dataVariable
 
     public String getTotalCases() {
         return totalCases;
+    }
+
+    public String getLatestUpdate() {
+        return latestUpdate;
+    }
+
+    public void setLatestUpdate(String latestUpdate) {
+        this.latestUpdate = latestUpdate;
     }
 
     public void setTotalCases(String totalCases) {

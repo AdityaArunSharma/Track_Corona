@@ -18,20 +18,21 @@ public class data
 
     public  dataVariable getTime(final AsynCall callback)
     {
-        Log.d("error", "getTime: "+"starting fetching url");
+
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, (JSONObject) null, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response)
             {
                 try
                 {
-                    Log.d("error", "inside jason objcr ");
+
 
                     object_dataVariable.setActiveCases(response.getString("activeCases"));
                     object_dataVariable.setDeaths(response.getString("deaths"));
                     object_dataVariable.setRecovered(response.getString("recovered"));
                     object_dataVariable.setTotalCases(response.getString("totalCases"));
                     object_dataVariable.setSourceUrl(response.getString("sourceUrl"));
+                    object_dataVariable.setLatestUpdate(response.getString("lastUpdatedAtApify"));
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
