@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Track Corona</string>
+    <string name="textView_tittle">COVID-19 Tracker</string>
+    <string name="refreshButton_contentDescrption">refesh data</string>
+    <string name="refreshButton_contentDescription">refresh data</string>
+    <string name="imagelag_contentdescription">image of national flag</string>
+    <string name="textView_totalCases">Total Cases</string>
+
+    <string name="totalCases">Loading</string>
+    <string name="textView_deaths">Deaths</string>
+    <string name="textView_Recovered">Recovered</string>
+    <string name="textView_activeCases">Active Cases</string>
+
+    <string name="recovered">Loading</string>
+    <string name="deaths">Loading</string>
+    <string name="activeCases">Loading</string>
+</resources>

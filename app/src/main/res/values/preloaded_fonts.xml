@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/anton</item>
+        <item>@font/atomic_age</item>
+        <item>@font/chonburi</item>
+        <item>@font/emblema_one</item>
+    </array>
+</resources>
